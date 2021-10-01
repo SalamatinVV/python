@@ -1,0 +1,9 @@
+number = int(input("Введите целое число:"))
+sum=0
+b=0
+while number != 0 :
+    b = number%10
+    number = number // 10
+    sum += b
+    b=0
+print ("Сумма=", sum)
